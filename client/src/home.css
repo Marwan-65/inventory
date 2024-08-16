@@ -1,0 +1,259 @@
+.butto{
+    margin: 40px;
+}
+#beneficiariesPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#Title {
+    margin: 10px auto;
+}
+
+
+#teamData {
+    background:linear-gradient(20deg, #3747ff, #5517b3);
+    margin: 20px 30px;
+    border-radius: 10px;
+    color:white;
+    opacity: 0.9;
+    
+}
+
+#beneficiaries {
+    overflow-y: auto;
+    height: 350px;
+}
+
+#tableHead {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(120deg, #3747ff, #5517b3);
+    border-radius: 10px 10px 0 0;
+    color: #1a1a1a;
+    margin: auto;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    opacity: 1;
+    color:white;
+}
+
+
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5px 30px;
+}
+
+.benfText {
+    display: block;
+    width: 200px;
+    text-align: left;
+    font-size: large;
+    font-weight: 600;
+}
+
+.idtable {
+    width: 100px;
+}
+
+.buttonAid {
+    text-align: center;
+}
+
+
+#popUpB {
+    background-color: #3747ff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    width: 800px;
+    z-index: 1;
+    right: 20%;
+    left: 20%;
+    top: 15%;
+    padding: 50px;
+    padding-top: 0;
+}
+
+#popUpP {
+    background-color: #373737;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+    right: 20%;
+    left: 30%;
+    top: 15%;
+    padding: 50px;
+    padding-top: 0;
+    opacity: 0.1;
+}
+
+#popUpB > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#popUpP > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: none;
+}
+
+#popUpB> div > input,#popUpA > div > input{
+    width: 200px;
+}
+
+#PromotionData {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Promotions {
+    overflow-y: auto;
+    height: 350px;
+}
+
+#tableHeadP {
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumseagreen;
+    border-radius: 10px 10px 0 0;
+    color: #1a1a1a;
+    margin: auto;
+    padding: 5px 30px;
+    margin-bottom: 10px;
+    
+}
+.promoted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5px 30px;
+}
+
+.promotedText {
+    display: block;
+    width: 150px;
+    text-align: left;
+    font-size: large;
+    font-weight: 600;
+
+}
+#popUpu > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    justify-content: space-around;
+    padding: 10px;
+}
+#popUpu > div > input{
+    width: 200px;
+}
+#popUpu {
+    background-color: #3747ff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: absolute;
+    width: 800px;
+    z-index: 1;
+    right: 20%;
+    left: 20%;
+    top: 15%;
+    padding: 50px;
+    padding-top: 0;
+}
+#popUpB> div > input,#popUpA > div > input{
+    width: 200px;
+}
+#popUpB > div {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  /* .custom-select select {
+    display: none; /*hide original SELECT element: */
+   */
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .tryy{
+    display:flex;
+  }
