@@ -4,9 +4,6 @@ class User {
       this.role=role;
       this.email=email;
     }
-    GetDescription() {
-        
-     }
 
   }
 
