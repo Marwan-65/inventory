@@ -22,6 +22,7 @@ This is a simple storage system that implements the following features:
 	npm run dev
 	```
   and then open another terminal to run the client
+  
 	```
 	cd client
 	npm run dev
