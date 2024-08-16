@@ -27,7 +27,7 @@ This is a simple storage system that implements the following features:
 	cd client
 	npm run dev
 	```
- 4. Create a MySql database with the following tables : users (Username,Password,Role,Email) , items (id, name, type, cat, quantity, purity,weight,material,dimension,voltage,current,power)
+ 4. Create a MySql database with the following tables : users (Username,Password,Role,Email) , items (id, name, type, cat, quantity, purity,weight,material,dimension,voltage,current,power) and enable the auto implement feature for the id in the items table
  5. Create a file named `.env` in the "server" directory and write your own values for the Database information:
 	 ```
 	 DB_HOST
