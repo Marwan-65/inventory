@@ -21,8 +21,9 @@ This is a simple storage system that implements the following features:
 	cd server
 	npm run dev
 	```
+  and then open another terminal to run the client
 	```
-	cd frontend
+	cd client
 	npm run dev
 	```
  4. Create a MySql database with the following tables : users (Username,Password,Role,Email) , items (id, name, type, cat, quantity, purity,weight,material,dimension,voltage,current,power)
@@ -55,7 +56,7 @@ This is a simple storage system that implements the following features:
 
 The project is organized into the following main directories:
 -   `server`: Contains the server and all the backend logic
--   `frontend`: Contains the `src` directory which holds all the frontend components and classes, and the `public` directory which holds the logos and the favicon.
+-   `client`: Contains the `src` directory which holds all the frontend components and classes, and the `public` directory which holds the logos and the favicon.
 
 **Key Design Decisions:**
 
